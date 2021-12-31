@@ -1,6 +1,7 @@
 # to make sure the nodes are created in the defined order, we
 # have to force a --no-parallel execution.
 ENV['VAGRANT_NO_PARALLEL'] = 'yes'
+ENV['VAGRANT_DEFAULT_PROVIDER'] = 'virtualbox'
 
 config_mail_fqdn              = "mail.example.com"
 config_mail_ip_address        = "192.168.33.254"
