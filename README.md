@@ -1,3 +1,6 @@
+**This work is based on https://github.com/rgl/mail-vagrant**
+
+
 This is a [Vagrant](https://www.vagrantup.com/) Environment for a Mail Server. It provides the [Message Transfer Agent (MTA)](https://en.wikipedia.org/wiki/Message_transfer_agent) and the [Mail Delivery Agent (MDA)](https://en.wikipedia.org/wiki/Mail_delivery_agent).
 
 This lets you easily test your application code against a real sandboxed Mail Server.
